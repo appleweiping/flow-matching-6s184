@@ -1,0 +1,26 @@
+{
+  "brownian_terminal_var": 4.855570316314697,
+  "brownian_terminal_var_expected": 5.0,
+  "ou": [
+    {
+      "theta": 0.25,
+      "sigma": 0.5,
+      "stationary_var": 0.5397342443466187,
+      "stationary_var_expected": 0.5
+    },
+    {
+      "theta": 0.5,
+      "sigma": 1.0,
+      "stationary_var": 1.0116586685180664,
+      "stationary_var_expected": 1.0
+    },
+    {
+      "theta": 1.0,
+      "sigma": 2.0,
+      "stationary_var": 2.028358221054077,
+      "stationary_var_expected": 2.0
+    }
+  ],
+  "langevin_logdensity_before": -23.865995407104492,
+  "langevin_logdensity_after": -4.62454891204834
+}
