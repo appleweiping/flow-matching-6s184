@@ -1,0 +1,13 @@
+{
+  "flow_matching_gmm": {
+    "final_loss": 19.011796951293945,
+    "energy_distance": 0.03456401824951172
+  },
+  "score_matching_gmm": {
+    "final_loss": 21.874832153320312,
+    "energy_distance": 0.05947399139404297
+  },
+  "linear_checkerboard": {
+    "final_loss": 8.565970420837402
+  }
+}
