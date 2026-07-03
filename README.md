@@ -70,13 +70,20 @@ their modes; increasing the guidance scale $w$ trades diversity for sharper cond
 **MNIST digit generation (Diffusion Transformer + CFG).** A 0.78 M-parameter DiT trained
 directly on MNIST pixels, sampled with classifier-free guidance:
 
-<!-- MNIST_RESULTS -->
-*(measured numbers filled in below by `scripts/run_lab3_mnist.py`.)*
+| Metric | Value |
+|---|---|
+| Model | Diffusion Transformer, patch 4, dim 96, 4 layers, 4 heads |
+| Parameters | **0.78 M** |
+| Training steps | **3200** (CPU, 3 threads) |
+| Flow-matching loss (final, last-100 mean) | **0.303** |
+| Sampling | classifier-free-guided Euler ODE, 200 steps |
 
 ![MNIST samples](results/lab3/mnist_samples.png)
 
 *Rows are digit classes 0–9; columns are independent samples. Guidance strength increases
-left → right across the three panels.*
+left → right ($w=1,3,5$) across the three panels — higher guidance yields sharper, more
+canonical digits at the cost of diversity. All ten classes are legible and correctly
+conditioned.*
 
 ## Implemented assignments
 

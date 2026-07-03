@@ -1,0 +1,22 @@
+{
+  "config": {
+    "steps": 3200,
+    "batch": 96,
+    "dim": 96,
+    "layers": 4,
+    "heads": 4,
+    "patch": 4,
+    "lr": 0.0006
+  },
+  "model_params_millions": 0.777131,
+  "checkpoint_step": 2000,
+  "extra_finetune_steps": 1200,
+  "total_steps": 3200,
+  "finetune_final_loss": 0.30309560894966125,
+  "finetune_final_loss_last100_mean": 0.30577364563941956,
+  "guidance_scales_sampled": [
+    1.0,
+    3.0,
+    5.0
+  ]
+}

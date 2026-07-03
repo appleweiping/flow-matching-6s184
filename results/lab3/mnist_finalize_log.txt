@@ -1,0 +1,9 @@
+[finalize] checkpoint=results/lab3/runs/silent-pear-aff45f70/step_002000_model.pt (step 2000), extra_steps=1200
+loaded 2.96 MiB, 0.78M params
+step 0 lr=6.0e-04 loss=0.3151:   0%|          | 0/1200 [00:01<?, ?it/s]
+step 1199 lr=6.0e-04 loss=0.3031: 100%|| 1200/1200 [51:05<00:00,  1.49it/s]
+step 1199 lr=6.0e-04 loss=0.3031: 100%|| 1200/1200 [51:05<00:00,  2.55s/it]
+saved results\lab3\mnist_samples.png
+Lab 3 MNIST final metrics: {
+"finetune_final_loss": 0.30309560894966125,
+"finetune_final_loss_last100_mean": 0.30577364563941956,
