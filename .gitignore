@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Data (downloaded at runtime)
+data/
+*.gz
+*.pt
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep results (figures/samples) tracked, but ignore large caches
+results/**/*.npz
